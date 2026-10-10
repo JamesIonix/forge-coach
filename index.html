@@ -70,7 +70,7 @@ const days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturda
 const defaultData={name:'',goal:'',sessions:[
  {id:'push',name:'Upper strength',day:3,exercises:[['Bench press',3,5],['Seated row',3,8],['Overhead press',3,6],['Lat pulldown',3,10]]},
  {id:'legs',name:'Lower strength',day:5,exercises:[['Squat',3,5],['Romanian deadlift',3,8],['Leg press',3,10],['Calf raise',3,12]]},
- {id:'upper',name:'Upper volume',day:5,exercises:[['Incline dumbbell press',3,10],['Cable row',3,10],['Lateral raise',3,15],['Biceps curl',3,12]]},
+ {id:'upper',name:'Upper volume',day:6,exercises:[['Incline dumbbell press',3,10],['Cable row',3,10],['Lateral raise',3,15],['Biceps curl',3,12]]},
  {id:'full',name:'Full body',day:0,exercises:[['Deadlift',3,5],['Dumbbell press',3,10],['Goblet squat',3,12],['Plank',3,30]]}
 ],logs:[]};
 let data=JSON.parse(localStorage.getItem(KEY)||'null')||structuredClone(defaultData); let activeSession=null; let currentUser=null; let syncTimer=null;
