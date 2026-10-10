@@ -1,0 +1,9 @@
+{
+  "name": "Forge Coach",
+  "short_name": "Forge",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0d1714",
+  "theme_color": "#0d1714",
+  "description": "A personal gym training log and coaching dashboard."
+}
